@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8"/>
+    {% if title %}
+      <title>{{ title }} : Psychologické a personální poradenství, Přerov</title>
+    {% else %}
+      <title>Psychologické a personální poradenství, Přerov</title>
+    {% endif %}
+    
+    <script type="text/javascript" src="/assets/vendor/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        {% include "functions.js" %}
+      });
+    </script>
+
+    <link rel="stylesheet" href="/assets/style.css"/>
+    <link rel="shortcut icon" href="/assets/img/favicon.png">
+  </head>
+  <body>
+    <header id="header">
+      <a href="/">PhDr. Věra Štěpánová <span>Psychologické a personální poradenství, Přerov</span></a>
+    </header>
+    
+    <section id="hero">
+      <h1>To Live <span>A Harmonious Life</span></h1>
+      <p>CUM SOCIS MIA NATOQUE PENA TIKERTDE JASERTASE DEARS FUSCE FEUGALEOA ISCING ELITASER MERE MIASE
+      KASETTAS LASETSA LERODE FERSAE DEKERA VESTS JETYADER DASERA.</p>
+    </section>
+
+    <main id="content">
+      {% block content %}{% endblock content %}
+    </main>
+
+    <footer id="footer">
+      PhDr. Věra Štěpánová &copy; <script>document.write((new Date).getFullYear());</script>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+---
+title: Výběrové řízení
+date: 2010-03-17
+template: post.html
+collection: posts
+---
+U pohovorů nemusíte říkat vše, ale je třeba se vyhnout nepravdám - lžím, které mohou být odhaleny, ztratíte tím šanci získat práci. Uchazeči o zaměstnání však lžou často. Zejména doba, kdy se nabídka pracovních příležitostí snižuje, nahrává tomu, aby se uchazeči ve svých životopisech a při pohovorech "vylepšili". Odpovídající údaje však samozřejmě převládají.
+
+Při pohovoru se u jednoho uchazeče na pozici strážníka městské policie přišlo na to, že v životopisu neuvedl opakovaný pokus o studium vysoké školy. Vysvětloval to tak, že by tento údaj uvedl pouze v případě, že by studium dokončil. Jakmile se při pohovoru zjistí jeden jediný chybný údaj, pak psycholog či zkušený personalista zpozorní.
+
+Proč se někteří uchazeči o zaměstnání uchylují k takovým nepravdám? Někdy to souvisí se systémem jejich hodnotového žebříčku, někdy to je projev extrémní osobnosti.
+
+Většina uchazečů považuje za důležité pracovní místo získat a důsledky svého lhaní hodlají řešit, až když nastanou. Zkoušejí, co jim projde a jsou připraveni tu hru hrát až do konce. Nikdy nepřiznají, že je to podvod, i když jsou odhaleni. Když jim nabízím argumenty o jejich chování, hledají viníky jinde, většinou ve výchově a odpovědnost připisují svým rodičům. Nicméně k tomu, aby se i jinak poctiví uchazeči nadhodnocovali, navádí řada knih. I v případě, že by uchazeči byli dokonalí lháři, prozradí je psychotesty a důkladné výběrové řízení. Psychodiagnostika totiž mimo jiné odhalí i to, zda mají tendenci ukazovat se v lepším světle než jací jsou doopravdy.
+
+A u pohovorů si nevymýšlejí jen chroničtí lháři. Řada uchazečů nadsazuje své znalosti práce na počítači a znalosti jazyků. V této oblasti se mnozí neumějí správně ohodnotit a někdy se také dokonce podceňují. Pokud však tvrdí, že umí výborně anglicky a u pohovoru ze sebe nevypraví ani slovo, nikdo nad tím oči přivírat nebude.
+
+Často si také uchazeči přivlastňují úspěchy svých kolegů. Veškeré triky se odhalí a nevyplácí se riskovat, lež má krátké nohy. Jakmile se odohalí jedna nepravda, jakmile v životopisu chybí důležitý údaj, ztrácí uchazeč důvěru a tedy i šanci získat místo, na kterém by mohl možná uspět. Zaměstnavatelé oceňují znalosti, zkušenosti, řešení pracovních problémů - kreativní řešení nových problémů (k tomu je potřebná představivost a inteligence) a také soubor vlastností a postojů. Především je to odpovědnost, sebejistota a sebekritika. Důležité jsou kompetence v oblasti mezilidských vztahů a obratnost ve spoleenském styku, jednoznačně schopnost spolupráce a navýzání dobrých vztahů s ostatními. U uchazčů na manažerské pozice je jejich osobnost klíčová.
+
+Nepravdivé či neodpovídající údaje nebo lež se dá rozeznat již při kladení otázek a analýze odpovědí. V případě nejistoty existuje možnost zjistit si na daného uchazeče refernece a pravda je odhalena. Navíc nový zaměstnavatel požaduje zápočtový list či doklad o dosaženém vzdělání. Personalisté si informace ověřují u bývalých kolegů uchazeče a jeho nadřízených.

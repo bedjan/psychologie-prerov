@@ -1,0 +1,140 @@
+{% extends 'page.html' %}
+
+{% block content %}
+  {% parent %}
+
+  <aside id="sidebar">
+    <div class="box">
+      <h2>Clinical Psychology</h2>
+      <p>Etgisriea jesertas leraen onsertas ersasera rurugiat masidabi nunc.</p>
+    </div>
+    <div class="box">
+      <h2>Anxiety Disorders</h2>
+      <p>Nadgravida atertaseras cursus necase kertyad aseluctus a, locenas tristiquorc.</p>
+    </div>
+    <div class="box">
+      <h2>Parent-Child Therapy</h2>
+      <p>Adeseras cursus necase adgravida atertasen locenas tristiquorc aseluctase.</p>
+    </div>
+  </aside>
+
+  <article id="welcome">
+    <h1>Welcome to My Site!</h1>
+    <p class="intro">Fusce feugiat malua laeugi luorbiler keryuase ferta erasertarse as nae dedskert
+    sdefer lere das orbraesrtoe.</p>
+    <p>Lum mleie acneanrit maurillus um socatotibus etgisriea jesertas leraen onlusertas
+    gase rurugiat masidabi nunc odgravida atertasras cursus nec, luctus a, locenas tristiquorci
+    kasea ac semis ultricies pharetra magna onec accumsan.</p>
+  </article>
+
+  <article id="services">
+    <h2>Featured Services</h2>
+    <ul>
+      <li>Praesent tibulum kertyade</li>
+      <li>Molestie lano merafertas</li>
+      <li>Ndrerit mauris ketyades</li>
+      <li>Phasellus porta</li>
+      <li>Fusce suscipit variertase</li>
+      <li>Usiasera um socisa isera</li>
+      <li>Natoque nertyades kasetade</li>
+      <li>Benatibus masra</li>
+      <li>Fibulum kertyade raesentase</li>
+      <li>Molestie lano merafertas</li>
+      <li>Ndrerit mauris ketyades</li>
+      <li>Phasellus porta</li>
+    </ul>
+  </article>
+
+  <section id="bottom">
+    <div class="column left">
+      <article id="address">
+        <h2>Kontakt</h2>
+
+        <p class="vcard">
+          <a class="fn org url" href="http://psychologie-prerov.cz" title="Kontakt na Psychologické a personální poradenství, Přerov">
+            <span class="organization-name">Psychologické a personální poradenství, Přerov</span>/<span class="organization-unit">PhDr. Věra Štěpánová</span>
+          </a>
+          <span class="email">
+            <a href="mailto:forrestgump@example.com">forrestgump@example.com</a>
+          </span>
+          <span class="street-address">Kosmákova 40</span>, <span class="locality">Přerov</span>,<br>
+          <span class="region">Olomoucký kraj</span>,<br>
+          <span class="postal-code">750 02</span>,<br>
+          <span class="country">Česká Republika</span>
+          <span class="tel">
+            <span class="type">Telefon</span>: <span class="value">+420-581-204-677</span>
+          </span>
+          <span class="tel">
+            <span class="type">Mobil</span>: <span class="value">+420-605-161-570</span>
+          </span>
+          <span class="tel">
+            <span class="type">Mobil</span>: <span class="value">+420-724-524-003</span>
+          </span>
+        </p>
+      </article>
+
+      <article id="map">
+        <iframe width="900" height="150" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Kosm%C3%A1kova%2040%2C%20Prerov%2C%20Czech%20Republic&key=AIzaSyBCcpQ1bCEQW4VAFFViP5Rdt-K4I6297DA"></iframe>
+      </article>
+    </div>
+    <div class="column right">
+      <article id="posts">
+        <h2>Články</h2>
+        <ul>
+          {% for post in posts %}
+            <li>
+              <h3><a href="/{{ post.path }}">{{ post.title }}</a></h3>
+            </li>
+          {% endfor %}
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <article id="testimonials">
+    <h2>Reference klientů</h2>
+
+    <ul>
+      <li>Adamovské strojírny a.s. Adamov</li>
+      <li>Alfa Plastik a.s., Bruntál</li>
+      <li>Aliachem a.s. Praha</li>
+      <li>Computer City a.s., Praha</li>
+      <li>Česká správa sociálního zabezpečení Praha</li>
+      <li>Finanční ředitelství Hradec Králové</li>
+      <li>Comfor a.s., Veská</li>
+      <li>IFT a.s., Přerov</li>
+      <li>Levi International a.s., Brno</li>
+      <li>MěÚ Přerov</li>
+      <li>Papcel a.s., Litovel</li>
+      <li>Fatra o.z., Napajedla</li>
+      <li>Ministerstvo práce a sociálních věcí ČR, Praha</li>
+      <li>Stavby silnic a železnic a.s., Zlín</li>
+      <li>Muzo a.s., Praha</li>
+      <li>Česká obchodní inspekce Praha</li>
+      <li>Pražské pivovary a.s., Praha</li>
+      <li>MěÚ Zlaté Hory</li>
+      <li>DENCOP LIGHTING s.r.o., Zlín - Malenovice</li>
+      <li>Beskydské pily a.s., Ostravice</li>
+      <li>TOPOS s.r.o., Tovačov</li>
+      <li>Hanušovická lesní a.s., Hanušovice</li>
+      <li>Přerovské strojírny a.s., Přerov</li>
+      <li>MěÚ Kojetín</li>
+      <li>CE WOOD a.s., Zlín</li>
+      <li>FORTISSIMO s.r.o., Vendryně</li>
+      <li>LZ Draslovka a.s., Kolín</li>
+      <li>ALLWOOD a.s., Zlín</li>
+      <li>IES s.r.o., Zlín - Malenovice</li>
+      <li>GAMEX CZ s.r.o., Napajedla</li>
+      <li>Global Payments Europe a.s., Praha</li>
+      <li>LESY České republiky s.p., Hradec Králové</li>
+      <li>PEVEKO s.r.o., Boršice</li>
+      <li>TON a.s., Bystřice pod Hostýnem</li>
+      <li>Magistrát města Přerova</li>
+      <li>ČŠI - Olomoucký inspektorát</li>
+      <li>ENERGOFOREST s.r.o, Český Krumlov</li>
+      <li>TRUMF International s.r.o., Přerov</li>
+      <li>Dileris a.s., Pardubice</li>
+      <li>Krajský úřad Olomouckého kraje</li>
+    </ul>
+  </article>
+{% endblock content %}
