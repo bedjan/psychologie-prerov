@@ -17,7 +17,7 @@
   "scripts": {
     "build": "./node_modules/.bin/coffee build.coffee",
     "watch": "./node_modules/.bin/watch 'npm run build' theme",
-    "start": "./node_modules/.bin/superstatic public --port 8080"
+    "start": "./node_modules/.bin/superstatic . --port 8080"
   },
   "devDependencies": {
     "chalk": "^0.5.1",
